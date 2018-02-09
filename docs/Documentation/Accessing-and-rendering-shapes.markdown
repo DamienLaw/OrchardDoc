@@ -137,7 +137,7 @@ Applied To             | Shape Naming Convention                                
 ---------------------- | ------------------------------------------------------ | -----------------------------------------------| --------------------------------------------
 Content shapes         | `Content__[ContentType]`                               | `Content__BlogPost`                            | `Content-BlogPost`
 Content shapes         | `Content__[Id]`                                        | `Content__42`                                  | `Content-42`
-Content shapes         | `Content__[DisplayType]`                               | `Content__Summary`                             | `Content.Summary`
+Content shapes         | `Content_[DisplayType]`                                | `Content_Summary`                              | `Content.Summary`
 Content shapes         | `Content_[DisplayType]__[ContentType]`                 | `Content_Summary__BlogPost`                    | `Content-BlogPost.Summary`
 Content shapes         | `Content_[DisplayType]__[Id]`                          | `Content_Summary__42`                          | `Content-42.Summary`
 Content.Edit shapes    | `Content_Edit__[DisplayType]`                          | `Content_Edit__Page`                           | `Content-Page.Edit`
